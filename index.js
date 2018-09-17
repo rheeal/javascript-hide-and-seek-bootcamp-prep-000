@@ -20,9 +20,8 @@ function deepestChild() {
   let a = [];
   
   for (let i = 0; i < d.length; i++) {
-		a.push(d[i])
+		a.push(d[i]);
   }
-  return deepestChild()
-  
-//  return document.querySelector('#grand-node div div div div');
+  return a[a.length-1];
+//return document.querySelector('#grand-node div div div div');
 }
